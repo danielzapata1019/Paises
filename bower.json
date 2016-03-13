@@ -1,0 +1,30 @@
+{
+  "name": "Paises",
+  "authors": [
+    "danielzapata1019 <danielzapata-1019@hotmail.com>"
+  ],
+  "description": "Muestra los paises del mundo",
+  "main": "",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "paises"
+  ],
+  "license": "MIT",
+  "homepage": "''",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "bootstrap": "^3.3.6",
+    "less": "^2.6.1"
+  }
+}
