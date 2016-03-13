@@ -1,0 +1,40 @@
+@color-fondo: #e9eaf1;
+@rojito : #ff8e7d;
+@country-color : #FFF;
+body{
+  background-color: @color-fondo;
+  }
+.title{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+#content{
+  .country{
+    padding: 15px;
+    background-color: @country-color;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-right: 5px;
+    height: 80px;
+    margin-bottom: 15px;
+    .flag{
+      width: 27%;
+      float: left;
+      padding-top: 5px;
+      img{
+        width: 52px;
+        height: 52px;
+        border-radius: 50px;
+      }
+    }
+    .info{
+      float: left;
+      width: 73%;
+      span{
+        font-weight: 400;
+      }
+    }
+
+  }
+}

@@ -25,6 +25,7 @@
   "dependencies": {
     "jquery": "^2.2.1",
     "bootstrap": "^3.3.6",
-    "less": "^2.6.1"
+    "less": "^2.6.1",
+    "font-awesome": "fontawesome#^4.5.0"
   }
 }
